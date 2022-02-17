@@ -4,7 +4,7 @@
 
 - [x] 2. Crea un proyecto de FeatureIDE de nombre *TuApellido* (no literalmente, sino el tuyo).
 
-- [ ] 3. Crea una carpeta en el proyecto llamada *original* y coloca en su interior los ficheros de los que partes (los descargados de la url proporcionada) y un fichero *Readme.txt* que incluya tu nombre y apellidos y la url de donde has descargado el programa. Los ficheros de esta carpeta no se tocarán.
+- [x] 3. Crea una carpeta en el proyecto llamada *original* y coloca en su interior los ficheros de los que partes (los descargados de la url proporcionada) y un fichero *Readme.txt* que incluya tu nombre y apellidos y la url de donde has descargado el programa. Los ficheros de esta carpeta no se tocarán.
      Es para ver la evolución sufrida por el software desarrollado.
 
 - [ ] 4. Crea en el proyecto FeatureIDE el modelo de variabilidad que aparece la figura siguiente. Este
