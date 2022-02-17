@@ -7,7 +7,7 @@
 - [x] 3. Crea una carpeta en el proyecto llamada *original* y coloca en su interior los ficheros de los que partes (los descargados de la url proporcionada) y un fichero *Readme.txt* que incluya tu nombre y apellidos y la url de donde has descargado el programa. Los ficheros de esta carpeta no se tocarán.
      Es para ver la evolución sufrida por el software desarrollado.
 
-- [ ] 4. Crea en el proyecto FeatureIDE el modelo de variabilidad que aparece la figura siguiente. Este
+- [x] 4. Crea en el proyecto FeatureIDE el modelo de variabilidad que aparece la figura siguiente. Este
      diagrama tendrá que evolucionar con nuevos cambios propuestos más adelante en este enunciado o porque alguna de las características abstractas vaya a contener código común.
 
      ![Diagrama de variabilidad base](./images/variabilidad.png)
