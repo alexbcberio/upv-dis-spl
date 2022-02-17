@@ -1,8 +1,8 @@
 # Tareas a realizar
 
-- [ ] 1.  Comprueba que el programa en Java descargado es un programa Java con interfaz gráfica que funciona. Los iconos que se indican en el punto anterior están disponibles en e-gela para su descarga.
+- [x] 1.  Comprueba que el programa en Java descargado es un programa Java con interfaz gráfica que funciona. Los iconos que se indican en el punto anterior están disponibles en e-gela para su descarga.
 
-- [ ] 2. Crea un proyecto de FeatureIDE de nombre *TuApellido* (no literalmente, sino el tuyo).
+- [x] 2. Crea un proyecto de FeatureIDE de nombre *TuApellido* (no literalmente, sino el tuyo).
 
 - [ ] 3. Crea una carpeta en el proyecto llamada *original* y coloca en su interior los ficheros de los que partes (los descargados de la url proporcionada) y un fichero *Readme.txt* que incluya tu nombre y apellidos y la url de donde has descargado el programa. Los ficheros de esta carpeta no se tocarán.
      Es para ver la evolución sufrida por el software desarrollado.
