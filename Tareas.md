@@ -12,7 +12,7 @@
 
      ![Diagrama de variabilidad base](./images/variabilidad.png)
 
-- [ ] 5. Añade una característica opcional llamada *About*. Esta característica debe mostrar en un diálogo emergente el nombre de los autores del programa (el/los del programa original y el tuyo). La característica *About* debe tener otra característica llamada *Url*, que hace que al mensaje anterior se le añada la url donde localizar el código fuente.
+- [x] 5. Añade una característica opcional llamada *About*. Esta característica debe mostrar en un diálogo emergente el nombre de los autores del programa (el/los del programa original y el tuyo). La característica *About* debe tener otra característica llamada *Url*, que hace que al mensaje anterior se le añada la url donde localizar el código fuente.
 
 - [ ] 6. **EXTRA**: Añade otra característica opcional llamada *TrackGames*, que lleve la cuenta el número de partidas ganadas que lleva cada jugador y otra característica *ConsecutiveGames* que cuente también cuántas partidas consecutivas lleva ganadas el ganador. Esto se muestra en un (uno, no dos) diálogo emergente al final de cada partida.
 

@@ -20,8 +20,26 @@
 				<feature name="OponentComputer"/>
 				<feature name="OponentFriend"/>
 			</or>
+			<and name="About">
+				<feature name="AboutUrl"/>
+			</and>
+			<and name="TrackGames">
+				<feature name="ConsecutiveGames"/>
+			</and>
 		</and>
 	</struct>
+	<constraints>
+		<rule>
+			<not>
+				<var>About</var>
+			</not>
+		</rule>
+		<rule>
+			<not>
+				<var>TrackGames</var>
+			</not>
+		</rule>
+	</constraints>
 	<featureOrder userDefined="true">
 		<feature name="TicTacToe"/>
 		<feature name="IconsHand"/>
@@ -29,5 +47,9 @@
 		<feature name="IconsPurple"/>
 		<feature name="OponentComputer"/>
 		<feature name="OponentFriend"/>
+		<feature name="TrackGames"/>
+		<feature name="ConsecutiveGames"/>
+		<feature name="About"/>
+		<feature name="AboutUrl"/>
 	</featureOrder>
 </featureModel>
