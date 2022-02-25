@@ -3,8 +3,8 @@
 	<feature automatic="selected" name="TicTacToe"/>
 	<feature automatic="selected" name="Icons"/>
 	<feature automatic="unselected" name="IconsHand"/>
-	<feature manual="selected" name="IconsBlueRed"/>
-	<feature automatic="unselected" name="IconsPurple"/>
+	<feature automatic="unselected" name="IconsBlueRed"/>
+	<feature manual="selected" name="IconsPurple"/>
 	<feature automatic="selected" name="Oponent"/>
 	<feature automatic="unselected" name="OponentComputer"/>
 	<feature automatic="selected" manual="selected" name="OponentFriend"/>
