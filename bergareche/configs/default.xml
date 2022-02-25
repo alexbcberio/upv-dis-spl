@@ -8,8 +8,8 @@
 	<feature automatic="selected" name="Oponent"/>
 	<feature name="OponentComputer"/>
 	<feature manual="selected" name="OponentFriend"/>
-	<feature name="About"/>
-	<feature name="AboutUrl"/>
-	<feature name="TrackGames"/>
-	<feature name="ConsecutiveGames"/>
+	<feature automatic="unselected" name="About"/>
+	<feature automatic="unselected" name="AboutUrl"/>
+	<feature automatic="unselected" name="TrackGames"/>
+	<feature automatic="unselected" name="ConsecutiveGames"/>
 </configuration>

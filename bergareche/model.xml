@@ -39,17 +39,32 @@
 				<var>TrackGames</var>
 			</not>
 		</rule>
+		<rule>
+			<not>
+				<var>OponentComputer</var>
+			</not>
+		</rule>
+		<rule>
+			<not>
+				<var>IconsBlueRed</var>
+			</not>
+		</rule>
+		<rule>
+			<not>
+				<var>IconsPurple</var>
+			</not>
+		</rule>
 	</constraints>
 	<featureOrder userDefined="true">
 		<feature name="TicTacToe"/>
+		<feature name="OponentComputer"/>
+		<feature name="OponentFriend"/>
 		<feature name="IconsHand"/>
 		<feature name="IconsBlueRed"/>
 		<feature name="IconsPurple"/>
-		<feature name="OponentComputer"/>
-		<feature name="OponentFriend"/>
-		<feature name="TrackGames"/>
-		<feature name="ConsecutiveGames"/>
 		<feature name="About"/>
 		<feature name="AboutUrl"/>
+		<feature name="TrackGames"/>
+		<feature name="ConsecutiveGames"/>
 	</featureOrder>
 </featureModel>
