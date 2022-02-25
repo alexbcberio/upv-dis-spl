@@ -244,7 +244,7 @@ public class Game extends JPanel {
 			
 			for (int i = 1; i < boardSize && hasWin; i++) {
 				final int j = boardSize - (i + 1);
-				System.out.println(i + " " + j);
+
 				if (!icon.equals(getButtonIcon(i, j))) {
 					hasWin = false;
 				}
