@@ -46,11 +46,6 @@
 		</rule>
 		<rule>
 			<not>
-				<var>IconsBlueRed</var>
-			</not>
-		</rule>
-		<rule>
-			<not>
 				<var>IconsPurple</var>
 			</not>
 		</rule>

@@ -2,12 +2,12 @@
 <configuration>
 	<feature automatic="selected" name="TicTacToe"/>
 	<feature automatic="selected" name="Icons"/>
-	<feature manual="selected" name="IconsHand"/>
-	<feature automatic="unselected" name="IconsBlueRed"/>
+	<feature automatic="unselected" name="IconsHand"/>
+	<feature manual="selected" name="IconsBlueRed"/>
 	<feature automatic="unselected" name="IconsPurple"/>
 	<feature automatic="selected" name="Oponent"/>
-	<feature name="OponentComputer"/>
-	<feature manual="selected" name="OponentFriend"/>
+	<feature automatic="unselected" name="OponentComputer"/>
+	<feature automatic="selected" manual="selected" name="OponentFriend"/>
 	<feature automatic="unselected" name="About"/>
 	<feature automatic="unselected" name="AboutUrl"/>
 	<feature automatic="unselected" name="TrackGames"/>
