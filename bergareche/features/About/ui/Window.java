@@ -6,6 +6,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
+import ui.dialog.AboutDialog;
+
 public class Window extends JFrame implements ActionListener {
 	private MenuBar menuBar;
 	
@@ -17,18 +19,9 @@ public class Window extends JFrame implements ActionListener {
 	
 	public void actionPerformed(ActionEvent e) {
 		if (e.getActionCommand().equals("menuBar:About")) {
-			showAboutDialog();
+			AboutDialog.show();
 		}
 		
 		original(e);
-	}
-	
-	private void showAboutDialog() {
-		JOptionPane.showMessageDialog(
-			menuBar,
-			"App by:\n  - Irith Katiyar\n  - Alexander BC",
-			"About",
-			JOptionPane.INFORMATION_MESSAGE
-		);
 	}
 }
