@@ -34,11 +34,6 @@
 				<var>TrackGames</var>
 			</not>
 		</rule>
-		<rule>
-			<not>
-				<var>OponentComputer</var>
-			</not>
-		</rule>
 	</constraints>
 	<featureOrder userDefined="true">
 		<feature name="TicTacToe"/>

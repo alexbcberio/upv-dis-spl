@@ -6,8 +6,8 @@
 	<feature automatic="unselected" name="IconsBlueRed"/>
 	<feature manual="selected" name="IconsPurple"/>
 	<feature automatic="selected" name="Oponent"/>
-	<feature automatic="unselected" name="OponentComputer"/>
-	<feature automatic="selected" manual="selected" name="OponentFriend"/>
+	<feature manual="selected" name="OponentComputer"/>
+	<feature manual="selected" name="OponentFriend"/>
 	<feature automatic="selected" name="About"/>
 	<feature manual="selected" name="AboutUrl"/>
 	<feature automatic="unselected" name="TrackGames"/>
