@@ -1,5 +1,6 @@
 package ui.panel;
 
+import java.awt.Color;
 import java.awt.Container;
 import java.awt.Cursor;
 import java.awt.Panel;
@@ -52,12 +53,12 @@ public class Game extends JPanel {
 				boardPanelSize);
 
 		for (int i = 0; i < btnBoard.length; i++) {
-			final int posY = i;
-			final int y = cellSize * i;
+			final int posX = i;
+			final int x = cellSize * i;
 
 			for (int j = 0; j < btnBoard.length; j++) {
-				final int posX = j;
-				final int x = j * cellSize;
+				final int posY = j;
+				final int y = j * cellSize;
 
 				JButton button = new JButton();
 
