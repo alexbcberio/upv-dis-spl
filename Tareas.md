@@ -22,7 +22,7 @@
      - Solo en ocasiones muy concretas es posible que se deban crear nuevos métodos para recolocar el código mostrado. Si lo necesitas hacer, justifícalo (ver punto 9).
      - Solo crear código para aquellos detalles que no aparezcan implementados en el código original.
 
-- [ ] 8. <u>Crear tres configuraciones</u> asociadas a las características y dejar la tercera por defecto.
+- [x] 8. <u>Crear tres configuraciones</u> asociadas a las características y dejar la tercera por defecto.
      - **FriendHand**: Icons_Hand + OponentFriend + About + Url
      - **ComputerBlueRed**: Icons_BlueRed + OponentComputer + About
      - **ComputerFriendPurple**: Icons_Purple + OponentFriend + OponentComputer + About.

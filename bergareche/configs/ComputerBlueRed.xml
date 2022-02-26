@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="TicTacToe"/>
+	<feature automatic="selected" name="Icons"/>
+	<feature automatic="unselected" name="IconsHand"/>
+	<feature manual="selected" name="IconsBlueRed"/>
+	<feature automatic="unselected" name="IconsPurple"/>
+	<feature automatic="selected" name="Oponent"/>
+	<feature manual="selected" name="OponentComputer"/>
+	<feature name="OponentFriend"/>
+	<feature manual="selected" name="About"/>
+	<feature name="AboutUrl"/>
+	<feature automatic="unselected" name="TrackGames"/>
+	<feature automatic="unselected" name="ConsecutiveGames"/>
+</configuration>
