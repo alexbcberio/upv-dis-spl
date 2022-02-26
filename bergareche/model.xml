@@ -31,17 +31,17 @@
 	<constraints>
 		<rule>
 			<not>
-				<var>About</var>
-			</not>
-		</rule>
-		<rule>
-			<not>
 				<var>TrackGames</var>
 			</not>
 		</rule>
 		<rule>
 			<not>
 				<var>OponentComputer</var>
+			</not>
+		</rule>
+		<rule>
+			<not>
+				<var>AboutUrl</var>
 			</not>
 		</rule>
 	</constraints>
