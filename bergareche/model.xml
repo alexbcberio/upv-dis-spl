@@ -39,11 +39,6 @@
 				<var>OponentComputer</var>
 			</not>
 		</rule>
-		<rule>
-			<not>
-				<var>AboutUrl</var>
-			</not>
-		</rule>
 	</constraints>
 	<featureOrder userDefined="true">
 		<feature name="TicTacToe"/>
