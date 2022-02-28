@@ -21,26 +21,32 @@ public class Game extends JPanel {
 		return ia;
 	}
 	
-	private ActionListener boardClick(int posX, int posY) {		
-		return new ActionListener() {
-			ActionListener originalListener = original(posX, posY);
-			
+	private ActionListener boardClick(int posX, int posY) {
+		ActionListener originalListener = original(posX, posY);
+		
+		return new ActionListener() {			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				originalListener.actionPerformed(e);
 				
-				if (!game.hasGameEnded() && ia) {
-					for (int i = 0; i < btnBoard.length; i++) {
-						for (int j = 0; j < btnBoard[i].length; j++) {
-							if (getButtonIcon(i, j).length() == 0) {
-								ActionListener ia = original(i, j);
-								
-								e.setSource(btnBoard[i][j]);
-								ia.actionPerformed(e);
-								
-								return;
-							}
-						}
+				if (!ia) {
+					return;
+				}
+				
+				if (!game.hasGameEnded()) {
+					try {
+						int[] position = game.computerSelectPosition();
+
+						final int posX = position[0];
+						final int posY = position[1];
+						
+						ActionListener computer = original(posX, posY);
+						
+						e.setSource(btnBoard[posX][posY]);
+						
+						computer.actionPerformed(e);
+					} catch (RuntimeException ex) {
+						System.out.println(ex);
 					}
 				}
 			}
