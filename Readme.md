@@ -1,6 +1,15 @@
 # Readme
 
-Ejercicio sobre "Líneas de Producto de Software" de la asignatura "Diseño Industrial de Software", del grado Ingeniería Informática cursada en la [Universidad Pública del País Vasco](https://ehu.eus).
+Ejercicio sobre "[Líneas de Producto de Software](https://en.wikipedia.org/wiki/Software_product_line)" de la asignatura "Diseño Industrial de Software", del grado Ingeniería Informática cursada en la [Universidad Pública del País Vasco](https://ehu.eus).
+
+El ejercicio consiste en modificar un juego simple existente, en este caso un tres en raya, añadiendo la siguiente variabilidad al juego:
+
+- Iconos de los iconos (X y O)
+- Opciones para el oponente: persona, máquina o ambos
+- Opción de mostrar un apartado "about" y opcionalmente añadir la url del código fuente
+- Opción de llevar una cuenta de las victorias de cada jugador y de forma opcional el número de victorias consecutivas.
+
+El proyecto se ha desarrollado en [Eclipse Modeling Tools](https://www.eclipse.org/downloads/packages/release/2021-12/r/eclipse-modeling-tools) y [feature-ide](https://marketplace.eclipse.org/content/featureide) con el compositor "FeatureHouse".
 
 ## Enunciado
 
