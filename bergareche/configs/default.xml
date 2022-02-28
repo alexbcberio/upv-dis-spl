@@ -10,6 +10,6 @@
 	<feature manual="selected" name="OponentFriend"/>
 	<feature automatic="selected" name="About"/>
 	<feature manual="selected" name="AboutUrl"/>
-	<feature automatic="unselected" name="TrackGames"/>
-	<feature automatic="unselected" name="ConsecutiveGames"/>
+	<feature automatic="selected" manual="selected" name="TrackGames"/>
+	<feature manual="selected" name="ConsecutiveGames"/>
 </configuration>

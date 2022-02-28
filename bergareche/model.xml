@@ -28,13 +28,6 @@
 			</and>
 		</and>
 	</struct>
-	<constraints>
-		<rule>
-			<not>
-				<var>ConsecutiveGames</var>
-			</not>
-		</rule>
-	</constraints>
 	<featureOrder userDefined="true">
 		<feature name="TicTacToe"/>
 		<feature name="OponentComputer"/>
