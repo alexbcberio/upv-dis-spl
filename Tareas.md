@@ -16,7 +16,7 @@
 
 - [x] 6. **EXTRA**: Añade otra característica opcional llamada *TrackGames*, que lleve la cuenta el número de partidas ganadas que lleva cada jugador y otra característica *ConsecutiveGames* que cuente también cuántas partidas consecutivas lleva ganadas el ganador. Esto se muestra en un (uno, no dos) diálogo emergente al final de cada partida.
 
-- [ ] 7. Separa el código original asociándolo a características, o añade el necesario si algo no está implementado.
+- [x] 7. Separa el código original asociándolo a características, o añade el necesario si algo no está implementado.
      - No se busca refactorizar el código proporcionado, tan solo distribuirlo.
      - Es posible que algunas características del diagrama en vez de abstractas sean concretas, o viceversa.
      - Solo en ocasiones muy concretas es posible que se deban crear nuevos métodos para recolocar el código mostrado. Si lo necesitas hacer, justifícalo (ver punto 9).
