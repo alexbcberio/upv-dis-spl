@@ -61,15 +61,17 @@ public class Window extends JFrame implements ActionListener  {
 			return;
 		}
 		
-		menuPanel.setVisible(false);
-		remove(menuPanel);
-		menuPanel = null;
-		
-		setContentPane(gamePanel);
-		setTitle("In game --- " + title);
-		
-		Dimension d = gamePanel.getSize();
-		setSize(d.width + 40, d.height);
+		if (menuPanel != null) {
+			menuPanel.setVisible(false);
+			remove(menuPanel);
+			menuPanel = null;
+			
+			setContentPane(gamePanel);
+			setTitle("In game --- " + title);
+			
+			Dimension d = gamePanel.getSize();
+			setSize(d.width + 40, d.height);
+		}
 	}
 
 }
