@@ -27,6 +27,6 @@
      - **ComputerBlueRed**: Icons_BlueRed + OponentComputer + About
      - **ComputerFriendPurple**: Icons_Purple + OponentFriend + OponentComputer + About.
 
-- [ ] 9. Crea un documento que explique someramente los cambios realizados en el código hasta llegar a la versión definitiva. Inclúyelo en la raíz de tu proyecto.
+- [x] 9. Crea un documento que explique someramente los cambios realizados en el código hasta llegar a la versión definitiva. Inclúyelo en la raíz de tu proyecto.
 
 - [ ] 10. Exporta el proyecto a un fichero tuApellido.zip. Súbelo a e-gela.
